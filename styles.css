@@ -7,6 +7,34 @@ body {
     background-color: #F0F8E0;
     line-height: 1.6;
 }
+.colors {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.colors th, .colors td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 25%; /* Ensures equal column width */
+}
+
+.primary {
+    background-color: #013220; /* Dark Green */
+}
+
+.secondary {
+    background-color: #228B22; /* Green */
+}
+
+.accent1 {
+    background-color: #FFD700; /* Yellow */
+}
+
+.accent2 {
+    background-color: #FFFFE0; /* Light Yellow */
+}
+
 
 header {
     background-color: #2E3D26;
