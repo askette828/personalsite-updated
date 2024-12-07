@@ -6,7 +6,7 @@ Fonts are separated by a | */
 :root {
   /* Update to your desired color palette */
   --primary-color: #1B5E20; /* Dark Green */
-  --secondary-color: #4CAF50; /* Green */
+  --secondary-color: #F0F8E0; /* Green */
   --accent1-color: #FFC107; /* Yellow */
   --accent2-color: #FFFFFF; /* White */
 
@@ -23,7 +23,7 @@ Fonts are separated by a | */
 
   /* Navigation styling */
   --nav-link-color: #1B5E20; /* Dark Green links */
-  --nav-background-color: #FFC107; /* Yellow background for navigation */
+  --nav-background-color: #1B5E20; /* Yellow background for navigation */
   --nav-hover-link-color: white; /* White links on hover */
   --nav-hover-background-color: #1B5E20; /* Dark Green hover background */
 }
