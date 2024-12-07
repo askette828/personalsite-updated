@@ -1,12 +1,8 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #2E3D26;
-    background-color: #F0F8E0;
-    line-height: 1.6;
 }
+
 .colors {
     width: 100%;
     border-collapse: collapse;
@@ -16,159 +12,47 @@ body {
 .colors th, .colors td {
     border: 1px solid #ccc;
     padding: 10px;
-    width: 25%; /* Ensures equal column width */
+    width: 25%;
 }
 
 .primary {
     background-color: #013220; /* Dark Green */
+    height: 50px;
 }
 
 .secondary {
     background-color: #228B22; /* Green */
+    height: 50px;
 }
 
 .accent1 {
     background-color: #FFD700; /* Yellow */
+    height: 50px;
 }
 
 .accent2 {
     background-color: #FFFFE0; /* Light Yellow */
+    height: 50px;
 }
 
-
-header {
-    background-color: #2E3D26;
-    color: #F0F8E0;
-    padding: 1rem 0;
-    text-align: center;
+.colored {
+    color: #013220; /* Dark Green */
 }
 
-header h1 {
-    font-family: 'Roboto Slab', serif;
-    margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #F0F8E0;
+nav a {
     text-decoration: none;
-    font-weight: bold;
+    margin-right: 15px;
+    color: #228B22; /* Green */
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+nav a:hover {
+    color: #FFD700; /* Yellow */
 }
 
-/* Sections */
-section {
-    padding: 2rem;
-    text-align: center;
-}
-
-section h2 {
-    font-family: 'Roboto Slab', serif;
-    color: #2E3D26;
-}
-
-section img {
-    width: 45%;
-    margin: 1%;
-    border-radius: 8px;
-}
-
-p {
-    font-size: 1.1rem;
-}
-
-/* Form Styling */
-/* = */
-
-label {
-    display: block;
-    margin: 0.5rem 0 0.2rem;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
+.sitemap div {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #FFFFE0; /* Light Yellow */
 }
 
-button {
-    background-color: #2E3D26;
-    color: white;
-    padding: 0.7rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #3E5D34;
-}
-
-/* Footer */
-footer {
-    background-color: #2E3D26;
-    color: #F0F8E0;
-    text-align: center;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.home-image {
-    width: 100%; 
-    height: 100%; 
-    max-width: 400px;
-    border-radius: 10px;
-
-}
-/* Form Styling */
-form {
-    text-align: left;
-    background-color: #FFF;
-    padding: 2.5rem; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form {
-    width: 80%;
-    max-width: none;
-    margin-left: 10vw; 
-
-}
-
-/* Eco-Tips Section */
-#ecotips {
-    padding: 2rem;
-}
-
-.tip {
-    background-color: #f0f8e0;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 15px;
-}
-
-.tip h3 {
-    color: #2e3d26;
-    font-family: 'Roboto Slab', serif;
-}
-
-.tip p {
-    color: #2e3d26;
-}
